@@ -33,6 +33,10 @@ public class Character : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetButton("Escape"))
+        {
+            Application.Quit();
+        }
 
         #region Handles Movment
         Vector3 forward = transform.TransformDirection(Vector3.forward);
