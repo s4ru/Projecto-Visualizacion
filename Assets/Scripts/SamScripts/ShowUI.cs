@@ -5,6 +5,7 @@ using UnityEngine;
 public class ShowUI : MonoBehaviour
 {
     [SerializeField] Canvas thecanvas;
+    [SerializeField] GameObject TargetUI;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +29,8 @@ public class ShowUI : MonoBehaviour
     {
 
             Debug.Log("its happenign");
-            thecanvas.enabled = true;
+            //thecanvas.enabled = true;
+            TargetUI.SetActive(true);
         
     }
 
@@ -36,7 +38,7 @@ public class ShowUI : MonoBehaviour
     {
 
         Debug.Log("its happenign");
-        thecanvas.enabled = false;
-
+        //thecanvas.enabled = false;
+        TargetUI.SetActive(false);
     }
 }
