@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.Rendering;
 
 [RequireComponent(typeof(CharacterController))]
 public class Character : MonoBehaviour
