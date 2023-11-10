@@ -25,25 +25,6 @@ public class Info_Manager : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(Active)
-        {
-            if(Input.GetMouseButtonDown(0))
-            {
-                Move_Foward();
-            }
-            else if(Input.GetMouseButtonDown(1))
-            {
-                if(settings_Index > 0)
-                {
-                    Move_Backwards();
-                }
-            }
-        }
-    }
-
     private void Set_Cam()
     {
         cam = Camera.main;
@@ -69,16 +50,18 @@ public class Info_Manager : MonoBehaviour
         Pilar_Init_Scale = Pilar.transform.localScale;
     }
 
-    private void Move_Foward()
+    public void Move_Foward()
     {
+        if(!Active)return;
         Activation();
         settings_Index++;
         Debug.Log(settings_Index);
         Check_Continuous();
     }
 
-    private void Move_Backwards()
+    public void Move_Backwards()
     {
+        if(!Active|| settings_Index==0) return;
         Activation();
         settings_Index--;
         Debug.Log(settings_Index);
