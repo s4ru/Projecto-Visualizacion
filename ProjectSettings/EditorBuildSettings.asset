@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/PantallaJuls.unity
     guid: 9024efce2c3622e41b18ef8035b2edd1
   - enabled: 1
+    path: Assets/Scenes/Info.unity
+    guid: ea20aef125833444ea5ad24df850c559
+  - enabled: 1
     path: Assets/Scenes/Entorno.unity
     guid: d4910b4a65434e24f84371f2ce33539b
   m_configObjects: {}

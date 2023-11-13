@@ -465,8 +465,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -807,8 +807,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1017,7 +1017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 984934243534199109, guid: 442e6056a84642644910c355c164245a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.52
       objectReference: {fileID: 0}
     - target: {fileID: 984934243534199109, guid: 442e6056a84642644910c355c164245a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1273,13 +1273,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_Materials.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: 1cba59bdf2bddb444a0fb73171a97580, type: 2}
     - target: {fileID: 6009822027210441788, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_LocalScale.x
       value: 11.67
@@ -1897,13 +1901,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_Materials.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: 1cba59bdf2bddb444a0fb73171a97580, type: 2}
     - target: {fileID: 6009822027210441788, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_LocalScale.x
       value: 11.67
@@ -2035,8 +2043,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3131,8 +3139,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3988,13 +3996,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_Materials.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: 1cba59bdf2bddb444a0fb73171a97580, type: 2}
     - target: {fileID: 6009822027210441788, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_LocalScale.x
       value: 11.67
@@ -4126,8 +4138,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4962,8 +4974,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5407,13 +5419,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_Materials.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: 1cba59bdf2bddb444a0fb73171a97580, type: 2}
     - target: {fileID: 6009822027210441788, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_LocalScale.x
       value: 11.67
@@ -5674,13 +5690,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_Materials.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: 1cba59bdf2bddb444a0fb73171a97580, type: 2}
     - target: {fileID: 6009822027210441788, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_LocalScale.x
       value: 11.67
@@ -5812,8 +5832,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6701,13 +6721,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_Materials.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4893590491980839237, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: 1cba59bdf2bddb444a0fb73171a97580, type: 2}
     - target: {fileID: 6009822027210441788, guid: 1e9749d31d6aee54891d4be32e1b5a41, type: 3}
       propertyPath: m_LocalScale.x
       value: 11.67
